@@ -10,18 +10,6 @@ const menu = Menu.buildFromTemplate([
     label: app.name,
     submenu: [
       { role: "about", label: "About Yandex Music (Unofficial)" },
-      {
-        label: "Website",
-        click() {
-          shell.openExternal("https://yandex-music.juvs.dev");
-        },
-      },
-      {
-        label: "GitHub",
-        click() {
-          shell.openExternal("https://github.com/juvirez/yandex-music-app");
-        },
-      },
       { type: "separator" },
       { role: "services", submenu: [] },
       { type: "separator" },

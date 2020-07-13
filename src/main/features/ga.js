@@ -10,8 +10,8 @@ global.mainWindow.on("focus", () => {
     .screen(
       app.name,
       app.getVersion(),
-      "com.github.juvirez.yandexmusicapp",
-      "com.github.juvirez.yandexmusicinstaller",
+      "su.zdp.yandexmusicapp",
+      "su.zdp.yandexmusicinstaller",
       "main",
       clientId
     )

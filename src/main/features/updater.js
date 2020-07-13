@@ -4,7 +4,7 @@ const semver = require("semver");
 
 const github = new GitHub();
 github
-  .getRepo("juvirez", "yandex-music-app")
+  .getRepo("zdproduction", "yandex-music-app")
   .listReleases()
   .then(({ data }) => {
     let lastRelease = data.find((release) => {

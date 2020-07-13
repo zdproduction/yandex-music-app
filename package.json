@@ -3,11 +3,14 @@
   "version": "1.6.0-alpha.1",
   "author": "juvirez",
   "description": "just webview for yandex music with native features",
-  "homepage": "https://yandex-music.juvs.dev",
+  "homepage": "https://github.com/zdproduction/yandex-music-app",
+  "bugs": {
+    "url": "https://github.com/zdproduction/yandex-music-app/issues"
+  },
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/juvirez/yandex-music-app.git"
+    "url": "git+https://github.com/zdproduction/yandex-music-app.git"
   },
   "main": "src/main/index.js",
   "scripts": {
@@ -39,8 +42,8 @@
     "vue": "^2.6.10"
   },
   "build": {
-    "productName": "Yandex Music (Unofficial)",
-    "appId": "com.github.juvirez.yandexmusicapp",
+    "productName": "Яндекс.Музыка (Unofficial)",
+    "appId": "su.zdp.yandexmusicapp",
     "mac": {
       "category": "public.app-category.music",
       "target": [
